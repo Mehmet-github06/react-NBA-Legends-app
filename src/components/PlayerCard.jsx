@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Card from "react-bootstrap/Card";
+
+
 const PlayerCard = ({ img, name, statistics }) => {
+
   const [showImage, setShowImage] = useState(true);
   console.log(showImage);
 
