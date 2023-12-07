@@ -16,9 +16,9 @@ const CardContainer = () => {
     setSearch(e.target.value);
   };
 
-  const filterData = data.filter((item) =>
-    item.name.toLowerCase().includes(search.toLowerCase().trim())
-  );
+//   const filterData = data.filter((item) =>
+//     item.name.toLowerCase().includes(search.toLowerCase().trim())
+//   );
 
   return (
     <>
