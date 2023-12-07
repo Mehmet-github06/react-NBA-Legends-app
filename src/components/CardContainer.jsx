@@ -8,15 +8,16 @@ import PlayerCard from "./PlayerCard";
 
 const CardContainer = () => {
   console.log(data);
+  
   return (
     <>
       <Form.Control placeholder="Search a player..." className="w-50 m-auto" />
 
       <Container className="rounded-4 my-4 p-3 card-container">
-        <Row>
+        <Row className="justify-content-center g-3">
           {data.map((player, i) => (
             <Col xl={3} lg={4} md={6}>
-            <PlayerCard {...player}/>
+              <PlayerCard {...player} />
             </Col>
           ))}
         </Row>
